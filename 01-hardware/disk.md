@@ -27,12 +27,3 @@ Device     Boot    Start       End  Sectors  Size Id Type
 /dev/sdb5       99287040 125042687 25755648 12.3G  7 HPFS/NTFS/exFAT
 
 ```
-
-### Encryption on System Disk
-It appears that the system uses Startup Key + TPM for the system disks. There are two partition encrypted using bitlocker (/dev/sdb2, /dev/sdb3).
-
-![](../res/mdsf5.gif)
-
-Credit: [petje](http://www.emuline.org/topic/1695-arcade-pc-chunithm-amazon-v130-omnimix-sega-nu-11/?do=findComment&comment=65867)
-
-Extraction using bitlocker2john or violatile framework is not possible. DMA attack or TPM sniffing will be used to extract the FVEK.
