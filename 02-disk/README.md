@@ -2,6 +2,12 @@
 
 The Sega Nu included 2 bays for mass storage. One is used for system OS and the other for game data.
 
+## System Disk 64GB SSD
+![system disk](./../res/6DDCA33D-E332-4DAA-829F-8643DE2C906F.jpeg)
+
+## Data Disk 500 GB HDD
+![data disk](./../res/F4933767-F7C2-4686-871F-A04BD63502E3.jpeg)
+
 The Sega Nu I have for PDAFT is encrypted with bitlocker. While I am still in the process to recover the FVEK (Full Volume Encryption Key). Here is a overview of the partition layout on the system disk.
 
 ```
@@ -21,3 +27,12 @@ Device     Boot    Start       End  Sectors  Size Id Type
 /dev/sdb5       99287040 125042687 25755648 12.3G  7 HPFS/NTFS/exFAT
 
 ```
+
+### Encryption on System Disk
+It appears that the system uses Startup Key + TPM for the system disks. There are two partition encrypted using bitlocker (/dev/sdb2, /dev/sdb3).
+
+![](../res/mdsf5.gif)
+
+Credit: [petje](http://www.emuline.org/topic/1695-arcade-pc-chunithm-amazon-v130-omnimix-sega-nu-11/?do=findComment&comment=65867)
+
+Extraction using bitlocker2john or violatile framework is not possible. DMA attack or TPM sniffing will be used to extract the FVEK.
