@@ -12,3 +12,4 @@ Extraction using bitlocker2john or violatile framework is not possible. DMA atta
 
 
 ### Encryption on Data Disk
+The appears the data disk have 1 bitlocker encrypted partition, and couple other normal partition. One of the normal parition appears to include some game data.
