@@ -7,3 +7,4 @@ Apologies for the dirty motherboard pictures.
 ## Table of Content
 
 * [Hardware](01-hardware/README.md)
+* [Keychip](02-keychip/README.md)

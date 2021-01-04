@@ -23,10 +23,10 @@ Disk identifier: 0x46a06ba5
 
 Device     Boot    Start       End  Sectors  Size Id Type
 /dev/sdb1  *        2048    718847   716800  350M  7 HPFS/NTFS/exFAT
-/dev/sdb2         718848  42661887 41943040   20G  7 HPFS/NTFS/exFAT
+/dev/sdb2         718848  42661887 41943040   20G  7 HPFS/NTFS/exFAT (Bitlocker)
 /dev/sdb3       42661888  99284991 56623104   27G  7 HPFS/NTFS/exFAT
 /dev/sdb4       99284992 125042687 25757696 12.3G  f W95 Ext'd (LBA)
-/dev/sdb5       99287040 125042687 25755648 12.3G  7 HPFS/NTFS/exFAT
+/dev/sdb5       99287040 125042687 25755648 12.3G  7 HPFS/NTFS/exFAT (Bitlocker)
 
 ```
 
@@ -44,7 +44,7 @@ Disk identifier: 8AEAE091-CC08-4E7C-BB31-219EC20C1C7E
 Device         Start       End   Sectors   Size Type
 /dev/sdb1         34    262177    262144   128M Microsoft reserved
 /dev/sdb2     264192 537135103 536870912   256G Microsoft basic data
-/dev/sdb3  537135104 976773119 439638016 209.6G Microsoft basic data
+/dev/sdb3  537135104 976773119 439638016 209.6G Microsoft basic data (Bitlocker)
 
 Partition 1 does not start on physical sector boundary.
 

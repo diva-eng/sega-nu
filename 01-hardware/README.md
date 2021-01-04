@@ -20,8 +20,6 @@ Other ：SEGA Original security / Windows security
 
 ## GPU
 
-## Keychip
-
 ## CPU
 
 ## IO
