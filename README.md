@@ -9,3 +9,4 @@ Apologies for the dirty motherboard pictures.
 * [Hardware](01-hardware/README.md)
 * [Keychip](02-keychip/README.md)
 * [Media](03-media/README.md)
+* [Service Manual](./09-manual/README.md)
