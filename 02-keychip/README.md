@@ -23,6 +23,4 @@ Keychip for PDAFT
 
 Keychip for Nu SX
 
-![Keychip For Project Diva](../res/nusx.png)
-
-Image credit to: [Yahoo Auction](https://yahoo.aleado.com/lot?auctionID=v570465702)
+![Keychip For Project Diva](../res/nusx.jpeg)
