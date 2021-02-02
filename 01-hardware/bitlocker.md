@@ -34,3 +34,6 @@ For memory dumps, since the system is locked down really well, none of the keybo
 
 An example of extracted FVEK:
 ![volume keys](../res/vol.png)
+
+We can see all the SEGA drivers in the OS drive:
+![drivers](../res/drivers.png)
