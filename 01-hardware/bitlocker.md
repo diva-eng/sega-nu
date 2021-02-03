@@ -16,7 +16,7 @@ The appears the data disk have 1 bitlocker encrypted partition, and two other no
 
 
 ### Cracking bitlocker
-It is know that cracking bitlocker and doing system dump is achieved before, but undocumented. I was able to defeat bitlocker using DMA attack, TPM sniffing involves too much variables and I did fail once before.
+It is known that cracking bitlocker and doing system dump is achieved before, but undocumented. I was able to defeat bitlocker using DMA attack, TPM sniffing involves too much variables and I did fail once before.
 
 I have found this way is the most reliable and unlikely to brick the system or going into Bitlocker recovery mode.
 
