@@ -4,9 +4,13 @@ I recently had my hand on an used Sega Nu for PDAFT (Project Diva Arcade Future 
 
 Apologies for the dirty motherboard pictures.
 
+## Why not run a PC system or Nu system with regular windows?
+Its fun to run a system with its original software, and you can always learn how SEGA put this system together.
+
 ## Table of Content
 
 * [Hardware](01-hardware/README.md)
 * [Keychip](02-keychip/README.md)
 * [Media](03-media/README.md)
+* [Protection](04-protections/README.md)
 * [Service Manual](./09-manual/README.md)

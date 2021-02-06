@@ -37,3 +37,7 @@ An example of extracted FVEK:
 
 We can see all the SEGA drivers in the OS drive:
 ![drivers](../res/drivers.png)
+
+**Note**
+
+DO NOT decrypt the disk and boot the arcade in normal mode, Nu's preboot has check that will render the device unusable once it detected the drives are decrypted. Keep the recovery key/encryption key and update files off the system.
