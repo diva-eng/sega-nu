@@ -10,6 +10,7 @@ Its fun to run a system with its original software, and you can always learn how
 ## Table of Content
 
 * [Hardware](01-hardware/README.md)
+* [Windows](05-windows/README.md)
 * [Keychip](02-keychip/README.md)
 * [Media](03-media/README.md)
 * [Protection](04-protections/README.md)
