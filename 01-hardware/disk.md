@@ -50,3 +50,19 @@ Partition 1 does not start on physical sector boundary.
 
 
 ```
+
+## Partition Map
+
+| Drive Letter | Drive Type |  Label  | Bitlocker |  HDD |
+| :----------- | :--------: | :-----: | :-------: | ---: |
+| C            |   System   |  WES8   |    yes    |   no |
+| E            | Game Data  |  AMFS   |    no     |  yes |
+| D            |    Data    |  AMFS   |    no     |   no |
+| Y            |    Data    | AppData |    yes    |  yes |
+| F            |    Data    |    ?    |    yes    |   no |
+
+## Additional Drives
+After successfully validating the keychip and game image decryption. Game ROM will be mounted as `X:`
+Another drive `S:` is also created but the use of it is unknown.
+
+![](../res/os.png)

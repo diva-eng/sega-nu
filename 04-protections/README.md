@@ -19,12 +19,4 @@ Things to keep in mind:
 ewfmgr -all -commitanddisable // this command will also commit all the changes stored in ram.
 ```
 
-## In case you mess up
-
-| Drive Letter | Drive Type |  Label  | Bitlocker |  HDD |
-| :----------- | :--------: | :-----: | :-------: | ---: |
-| C            |   System   |  WES8   |    yes    |   no |
-| E            | Game Data  |  AMFS   |    no     |  yes |
-| D            |    Data    |  AMFS   |    no     |   no |
-| O            |    Data    | AppData |    yes    |  yes |
-| Y            |    Data    |    ?    |    yes    |   no |
+(suggestion: do not turn off EWF, use `-all -commit` to apply changes to hard disk when you need it, it will save you from a lot of trouble if you mess up the filesystem)
