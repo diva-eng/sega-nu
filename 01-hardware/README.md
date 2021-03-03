@@ -27,5 +27,6 @@ Other ：SEGA Original security / Windows security
 ## Motherboard
 The motherboard is a custom motherboard with 2 DIMM slot + 2 Pcie, model number: DAC-BJ05 REV. A1
 * [Motherboard Hardware](./motherboard.md)
+* [BIOS](./bios.md)
 
 ## PSU
