@@ -1,12 +1,9 @@
 # Bitlocker
-Sega Nu uses the USB key and Bitlocker to protect its storage. During investigation the main system drive has two bitlocker partitions protected by Startup Key + TPM.
+Sega Nu uses the USB keychip and Bitlocker to protect its storage. During investigation the main system drive has 1 bitlocker partitions protected by TPM and another one by external key.
 
 ### Encryption on System Disk
-It appears that the system uses Startup Key + TPM for the system disks. There are two partition encrypted using bitlocker (/dev/sdb2, /dev/sdb3).
+It appears that the system uses TPM for the system disks, and rest of the partition is using external keys which is stored on the system disk. There are two partition encrypted using bitlocker (/dev/sdb2, /dev/sdb3).
 
-![](../res/mdsf5.gif)
-
-Credit: [petje](http://www.emuline.org/topic/1695-arcade-pc-chunithm-amazon-v130-omnimix-sega-nu-11/?do=findComment&comment=65867)
 
 Extraction using bitlocker2john is not possible, DMA attack or TPM sniffing will be used to extract the FVEK.
 
@@ -41,3 +38,11 @@ We can see all the SEGA drivers in the OS drive:
 **Note**
 
 DO NOT decrypt the disk and boot the arcade in normal mode, Nu's preboot has check that will render the device unusable once it detected the drives are decrypted. Keep the recovery key/encryption key and update files off the system.
+
+**Note**
+
+It is also possible to clone the entire system on to another system, there has been speculation that there are special software locks the disk to the motherboard serial, that is not true. You are able to take the encrypted raw disk image and take it to another system, during boot just enter the recovery key of the encrypted disk or re-key the boot partition to use the TPM on the motherboard.
+
+**Re-key OS partition**
+
+Once the encrypted image is restored to a different system, the bitlocker volume for the OS partition will continue try to use the previous system's TPM to unlock, this will end up failing everytime and prompt you to enter recovery key at every boot. You can re-key the drives by going into an Admin prompt and remove existing TPM key protector on the OS partition and add a new TPM key protector. After committing the changes using EWF, the system will be able to bootup without the need to enter recovery password

@@ -19,6 +19,7 @@ Other ：SEGA Original security / Windows security
 * [Disk Security](./bitlocker.md)
 
 ## GPU
+* [GPU](./gpu.md)
 
 ## CPU
 
