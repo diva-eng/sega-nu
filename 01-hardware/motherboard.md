@@ -1,6 +1,6 @@
 # Motherboard
 
-The motherboard is a custom moderboard with unknown bios (haven't powered on to test it yet), it only has two Pcie slots and two DIMM slots.
+The motherboard is a AIMB-582QG2-00A1E with custom bios (haven't powered on to test it yet), it only has two Pcie slots and two DIMM slots.
 
 ![](./../res/069DA365-A2BC-4F0A-8B0B-BFD462A16C4A.jpeg)
 
