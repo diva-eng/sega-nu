@@ -2,7 +2,7 @@
 
 ## Components
 * [Winbond 25X40CLS1G SPI Memory](https://www.winbond.com/resource-files/w25x40cl_f%2020140325.pdf)
-* NXP 7001C Secure Processor
+* [NXP A7001C Secure Processor](https://radioaktiv.ru/ds/nxp/A700X_FAM_SDS.pdf)
 * [NXP LPC11U14F ARM Processor](https://www.nxp.com/docs/en/data-sheet/LPC11U1X.pdf)
 ## Images
 
